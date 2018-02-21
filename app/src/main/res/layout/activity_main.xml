@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.smallpizzabusiness.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="openWebsite"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3949AB"
+        android:drawableEnd="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableLeft="@drawable/ic_location_on"
+        android:onClick="openWebsite"
+        android:padding="10dp"
+        android:text="@string/pizza_bella"
+        android:textColor="#FFB300"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+
+    <!-- Icon made by Yannick from www.flaticon.com -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:drawableEnd="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableLeft="@drawable/ic_location_on"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableStart="@drawable/ic_location_on"
+        android:ellipsize="end"
+        android:onClick="openAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/address"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:drawableEnd="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableLeft="@drawable/ic_contact_phone"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableStart="@drawable/ic_contact_phone"
+        android:ellipsize="end"
+        android:onClick="phoneCall"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/phone_number"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:drawableEnd="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableLeft="@drawable/ic_action_globe"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/one_finger_tap_gesture_of_outlined_hand_symbol"
+        android:drawableStart="@drawable/ic_action_globe"
+        android:ellipsize="end"
+        android:onClick="openWebsite"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/website"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

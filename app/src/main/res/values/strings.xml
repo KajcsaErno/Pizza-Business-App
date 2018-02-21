@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"Small Pizza Business "</string>
+    <string name="pizza_bella">Pizza Bella</string>
+    <string name="address">Bulevardul Brașovului 76</string>
+    <string name="phone_number">0268 274 131</string>
+    <string name="website">https://carta.ro/restaurante-sacele/restaurantul-pizza-bella/</string>
+
+
+</resources>
