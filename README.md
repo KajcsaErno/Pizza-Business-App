@@ -12,6 +12,6 @@ Your design must include:
   * Description of business
   * Hours of operation
 
-## Final result of my projet - Pizza Business App
+## Final result of my project - Pizza Business App
 
 ![image](https://user-images.githubusercontent.com/31850356/113474352-d4f46800-946f-11eb-81d5-3d1f1ef786a1.png)
